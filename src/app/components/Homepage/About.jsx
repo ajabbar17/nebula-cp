@@ -11,7 +11,7 @@ const About = () => {
 
         </p>
 
-        <h1 className='text-5xl md:text-7xl text-white font-bold'>
+        <h1 className='text-3xl md:text-7xl text-white font-bold'>
         Nebula Capital
 
         </h1>

@@ -199,7 +199,7 @@ const Background = () => {
      
       <canvas id="demo-canvas" ref={canvasRef}></canvas>
 
-          <h1 className="text-5xl md:text-8xl font-bold mb-6 main-title">
+          <h1 className="text-4xl md:text-8xl font-bold mb-6 main-title">
             <span
               className={`inline-block animate-animation  `}
               style={{
@@ -216,7 +216,7 @@ const Background = () => {
               NEBULA CAPITAL
             </span>
           </h1>
-          <h1 className="text-3xl  md:text-6xl font-bold mt-20 md:mt-36 uppercase main-title"
+          <h1 className="text-2xl  md:text-6xl font-bold mt-20 md:mt-36 uppercase main-title"
             style={{ color: '#D64D72' }}
           >
             Web2,WEB3 & beyond

@@ -3,8 +3,8 @@ import React from 'react'
 
 const NonRetail = () => {
   return (
-    <div className='w-full px-16 md:px-28 py-7 flex-col items-center flex'>
-    <h1 className='text-3xl md:text-7xl text-white mb-5 font-semibold'>For Non-Retail Investors</h1>
+    <div className='w-full px-14 md:px-28 py-7 flex-col items-center flex'>
+    <h1 className='text-4xl text-center md:text-7xl text-white mb-5 font-semibold'>For Non-Retail Investors</h1>
 
     <div className='w-full flex flex-col md:flex-row  gap-8'>
         <div className='w-full md:w-1/3 px-8  py-14 pt-0 border-[#121837] shadow-[#121837] hover:scale-105 transition-transform  shadow-inner flex-col justify-center flex items-center border-2 rounded-2xl text-white'>

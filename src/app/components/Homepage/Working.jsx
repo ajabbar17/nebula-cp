@@ -4,7 +4,7 @@ import React from 'react'
 const Working = () => {
   return (
     <div className='w-full px-16 md:px-28 py-7 flex-col justify-center items-center flex text-white'>
-        <h1 className='text-5xl md:text-7xl text-white mb-5 font-semibold'>How It Works</h1>
+        <h1 className='text-4xl md:text-7xl text-white mb-5 font-semibold'>How It Works</h1>
 
        <div className='flex w-auto md:flex-row flex-col md:px-20 mt-10 gap-7 '>
         <div className='w-full md:w-1/3 px-8  py-14 pt-0 border-[#121837] shadow-[#121837] hover:scale-105 transition-transform  shadow-inner flex-col justify-center flex items-center border-2 rounded-2xl text-white'>
