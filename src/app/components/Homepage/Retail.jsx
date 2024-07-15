@@ -5,7 +5,7 @@ const Retail = () => {
   return (
     <div className='w-full px-14 md:px-28 py-7 flex-col my-20 items-center flex'>
         <p className='font-semibold text-lg'>FUEL YOUR GROWTH</p>
-        <h1 className='text-3xl mt-5 md:text-7xl text-white mb-5 font-semibold'>For Retail Investors</h1>
+        <h1 className='text-4xl text-center mt-5 md:text-7xl text-white mb-5 font-semibold'>For Retail Investors</h1>
 
         <div className='w-full flex flex-col md:flex-row  gap-8'>
             <div className='w-full md:w-1/3 px-8  py-14 pt-0 border-[#121837] shadow-[#121837] hover:scale-105 transition-transform  shadow-inner flex-col justify-center flex items-center border-2 rounded-2xl text-white'>
