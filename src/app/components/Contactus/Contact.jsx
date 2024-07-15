@@ -16,7 +16,7 @@ const Contact = () => {
           <p className='text-[#86A3BF] leading-6 text-lg font-normal'>
             
             Whether you have questions about our services, 
-                need technical  or want to explore how Nebula Capital works can help your business thrive, we're here to assist you.
+                need technical  or want to explore how Nebula Capital works can help your business thrive, we are here to assist you.
           </p>
         </div>
         <div className='mt-8'>

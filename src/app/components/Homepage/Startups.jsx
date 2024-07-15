@@ -14,7 +14,7 @@ const Startups = () => {
 
                 </h1>
                 <p className='text-center mt-3'>
-                    Enhance your startup's profile and attract attention from potential investors.
+                    Enhance your startup&apos;s profile and attract attention from potential investors.
 
                 </p>
             </div>

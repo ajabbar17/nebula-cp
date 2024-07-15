@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
@@ -10,9 +11,11 @@ const Team = () => {
         <div className='w-full flex gap-4 flex-wrap  justify-center  xl:flex-nowrap'>
 
         <article className="relative overflow-hidden w-1/2  lg:w-1/4 rounded-lg shadow cursor-pointer hover:scale-105 hover:shadow-[#3e4467] transition hover:shadow-lg">
-  <img
-    alt=""
-    src="https://images.unsplash.com/photo-1661956602116-aa6865609028?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80"
+  <Image
+    alt="Person"
+    src="/temp.avif"
+    height={100}
+    width={100}
     className="absolute inset-0 h-full w-full object-cover"
     />
 
@@ -29,11 +32,13 @@ const Team = () => {
   </div>
 </article>
 <article className="relative overflow-hidden  w-1/2  lg:w-1/4 rounded-lg shadow cursor-pointer hover:scale-105 hover:shadow-[#3e4467] transition hover:shadow-lg">
-  <img
-    alt=""
-    src="https://images.unsplash.com/photo-1661956602116-aa6865609028?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80"
+<Image
+    alt="Person"
+    src="/temp.avif"
+    height={100}
+    width={100}
     className="absolute inset-0 h-full w-full object-cover"
-  />
+    />
 
   <div className="relative bg-gradient-to-t from-gray-900/50 to-gray-900/25 pt-32 sm:pt-48 lg:pt-64">
     <div className="p-4 sm:p-6">  
@@ -48,11 +53,13 @@ const Team = () => {
   </div>
 </article>
 <article className="relative overflow-hidden w-1/2  lg:w-1/4 rounded-lg shadow cursor-pointer hover:scale-105 hover:shadow-[#3e4467] transition hover:shadow-lg">
-  <img
-    alt=""
-    src="https://images.unsplash.com/photo-1661956602116-aa6865609028?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80"
+<Image
+    alt="Person"
+    src="/temp.avif"
+    height={100}
+    width={100}
     className="absolute inset-0 h-full w-full object-cover"
-  />
+    />
 
   <div className="relative bg-gradient-to-t from-gray-900/50 to-gray-900/25 pt-32 sm:pt-48 lg:pt-64">
     <div className="p-4 sm:p-6">  
@@ -68,11 +75,13 @@ const Team = () => {
 </article>
 
 <article className="relative overflow-hidden  w-1/2  lg:w-1/4 rounded-lg shadow cursor-pointer hover:scale-105 hover:shadow-[#3e4467] transition hover:shadow-lg">
-  <img
-    alt=""
-    src="https://images.unsplash.com/photo-1661956602116-aa6865609028?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80"
+<Image
+    alt="Person"
+    src="/temp.avif"
+    height={100}
+    width={100}
     className="absolute inset-0 h-full w-full object-cover"
-  />
+    />
 
   <div className="relative bg-gradient-to-t from-gray-900/50 to-gray-900/25 pt-32 sm:pt-48 lg:pt-64">
     <div className="p-4 sm:p-6">  

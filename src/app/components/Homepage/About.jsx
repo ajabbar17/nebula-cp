@@ -1,10 +1,11 @@
 "use client"
+import Image from 'next/image';
 import React from 'react';
 
 const About = () => {
   return (
     <section className="w-full gap-16 items-center flex md:flex-row flex-col md:px-28 md:py-16 ">
-      <div className='w-full md:w-1/2 flex items-center flex-col' >
+      <div className='w-full md:w-1/2 flex items-center md:items-start flex-col' >
         <p className='font-bold text-base text-white mb-10 tracking-widest'>
         PIONEERING INNOVATION IN CRYPTO, BLOCKCHAIN, AND AI
 
@@ -18,7 +19,7 @@ const About = () => {
           “Leave Your Investing Research To Us”</p>
         <div className='flex gap-4 items-center mt-6'>
           <div>
-            <img src="https://brainiacsdigiacademy.com/nebula/wp-content/uploads/2023/04/ttmn1-copyright-150x150.jpg" className='rounded-full w-20' alt="" />
+            <Image src="/ceo.jpg" width={100} height={100} className='rounded-full w-20' alt="invest" />
           </div>
             <div>
               <h1>
