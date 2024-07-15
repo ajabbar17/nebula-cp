@@ -199,7 +199,7 @@ const Background = () => {
      
       <canvas id="demo-canvas" ref={canvasRef}></canvas>
 
-          <h1 className="text-6xl md:text-8xl font-bold mb-6 main-title">
+          <h1 className="text-5xl md:text-8xl font-bold mb-6 main-title">
             <span
               className={`inline-block animate-animation  `}
               style={{
@@ -216,13 +216,13 @@ const Background = () => {
               NEBULA CAPITAL
             </span>
           </h1>
-          <h1 className="text-5xl  md:text-6xl font-bold mt-36 uppercase main-title"
+          <h1 className="text-3xl  md:text-6xl font-bold mt-20 md:mt-36 uppercase main-title"
             style={{ color: '#D64D72' }}
           >
             Web2,WEB3 & beyond
           </h1>
-          <p className="text-2xl main-title mt-64">A new way to find superstar crypto plays</p>
-          <button className='bg-white font-bold text-xl text-black p-4 mt-96 px-12 text-center main-title rounded-full'>Get Started</button>
+          <p className="text-base md:text-2xl main-title mt-36 md:mt-64">A new way to find superstar crypto plays</p>
+          <button className='bg-white font-bold text-xl text-black p-4 mt-72 md:mt-96 px-6 md:px-12 text-center main-title rounded-full'>Get Started</button>
 
     </div>
   );

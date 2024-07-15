@@ -4,18 +4,18 @@ import React from 'react';
 
 const About = () => {
   return (
-    <section className="w-full gap-16 items-center flex md:flex-row flex-col md:px-28 md:py-16 ">
+    <section className="w-full gap-16 items-center flex md:flex-row flex-col md:px-28 md:py-16 py-6 px-6 ">
       <div className='w-full md:w-1/2 flex items-center md:items-start flex-col' >
-        <p className='font-bold text-base text-white mb-10 tracking-widest'>
+        <p className='font-bold text-base text-center md:text-start text-white mb-10 tracking-widest'>
         PIONEERING INNOVATION IN CRYPTO, BLOCKCHAIN, AND AI
 
         </p>
 
-        <h1 className=' text-7xl text-white font-bold'>
+        <h1 className='text-5xl md:text-7xl text-white font-bold'>
         Nebula Capital
 
         </h1>
-        <p className='text-white mt-4 md:mt-10 text-lg font-bold'>
+        <p className='text-white mt-4 md:mt-10 text-base md:text-lg font-bold'>
           “Leave Your Investing Research To Us”</p>
         <div className='flex gap-4 items-center mt-6'>
           <div>
@@ -39,9 +39,9 @@ const About = () => {
         <div className=''>
         The cryptocurrency market has rapidly evolved, driven by blockchain technology and increasing mainstream adoption. 
         Nebula Capital harnesses the power of blockchain and AI to innovate within this dynamic landscape. 
-        By combining advanced AI algorithms with blockchain expertise, 
         </div>
         <div className=''>
+        By combining advanced AI algorithms with blockchain expertise, 
 
         we offer sophisticated investment strategies, real-time analytics, and secure asset management solutions.
          Our approach ensures clients gain unparalleled insights and opportunities,

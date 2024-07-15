@@ -5,12 +5,12 @@ import React from 'react'
 const Team = () => {
   return (
 
-    <div className='flex flex-col px-12 md:px-20 py-10 gap-6 items-center '>
+    <div className='flex flex-col px-20 py-10 gap-6 items-center '>
     
-        <h1 className='text-5xl md:text-7xl text-white mb-5 font-semibold'>MEET OUR TEAM</h1>
+        <h1 className='text-4xl md:text-7xl text-white mb-5 font-semibold'>MEET OUR TEAM</h1>
         <div className='w-full flex gap-4 flex-wrap  justify-center  xl:flex-nowrap'>
 
-        <article className="relative overflow-hidden w-1/2  lg:w-1/4 rounded-lg shadow cursor-pointer hover:scale-105 hover:shadow-[#3e4467] transition hover:shadow-lg">
+        <article className="relative overflow-hidden w-full  lg:w-1/4 rounded-lg shadow cursor-pointer hover:scale-105 hover:shadow-[#3e4467] transition hover:shadow-lg">
   <Image
     alt="Person"
     src="/temp.avif"
@@ -31,7 +31,7 @@ const Team = () => {
     </div>
   </div>
 </article>
-<article className="relative overflow-hidden  w-1/2  lg:w-1/4 rounded-lg shadow cursor-pointer hover:scale-105 hover:shadow-[#3e4467] transition hover:shadow-lg">
+<article className="relative overflow-hidden  w-full  lg:w-1/4 rounded-lg shadow cursor-pointer hover:scale-105 hover:shadow-[#3e4467] transition hover:shadow-lg">
 <Image
     alt="Person"
     src="/temp.avif"
@@ -52,7 +52,7 @@ const Team = () => {
     </div>
   </div>
 </article>
-<article className="relative overflow-hidden w-1/2  lg:w-1/4 rounded-lg shadow cursor-pointer hover:scale-105 hover:shadow-[#3e4467] transition hover:shadow-lg">
+<article className="relative overflow-hidden w-full  lg:w-1/4 rounded-lg shadow cursor-pointer hover:scale-105 hover:shadow-[#3e4467] transition hover:shadow-lg">
 <Image
     alt="Person"
     src="/temp.avif"
@@ -74,7 +74,7 @@ const Team = () => {
   </div>
 </article>
 
-<article className="relative overflow-hidden  w-1/2  lg:w-1/4 rounded-lg shadow cursor-pointer hover:scale-105 hover:shadow-[#3e4467] transition hover:shadow-lg">
+<article className="relative overflow-hidden  w-full  lg:w-1/4 rounded-lg shadow cursor-pointer hover:scale-105 hover:shadow-[#3e4467] transition hover:shadow-lg">
 <Image
     alt="Person"
     src="/temp.avif"
