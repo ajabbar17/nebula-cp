@@ -3,7 +3,7 @@ import Contact from '../components/Contactus/Contact'
 
 const page = () => {
   return (
-    <div className='p-20'>
+    <div className='p-14 md:p-20'>
         <Contact/>
     </div>
   )

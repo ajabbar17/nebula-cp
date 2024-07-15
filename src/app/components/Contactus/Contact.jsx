@@ -4,25 +4,22 @@ const Contact = () => {
   return (
  
 
-<section className="px-14">
-  <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
-    <div className="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
+<section className="w-full">
+  <div className="w-full max-w-screen-xl py-16 p-0 sm:px-3  lg:px-8">
+    <div className="grid grid-cols-1 gap-x-16 gap-y-8  lg:grid-cols-5">
       <div className="lg:col-span-2 lg:py-12">
-        <p className="max-w-xl uppercase font-medium text-7xl">
+        <p className="max-w-xl uppercase font-medium text-4xl md:text-7xl">
           Get in touch with us
         </p>
 
         <div className="mt-8">
-          <p className='text-[#86A3BF] leading-6 text-lg font-normal'>
+          <p className='text-[#86A3BF] leading-6 text-base md:text-lg font-normal'>
             
             Whether you have questions about our services, 
                 need technical  or want to explore how Nebula Capital works can help your business thrive, we are here to assist you.
           </p>
         </div>
-        <div className='mt-8'>
-          <h1 className='text-3xl font-semibold '>Contact Information:</h1>
-          <h1 className='text-xl font-normal '>Email: XYZ@gmail.com</h1>
-        </div>
+        
       </div>
 
       <div className="rounded-2xl p-8  shadow-2xl border-[#121837] shadow-[#537b81] lg:col-span-2 lg:p-12 hover:scale-105 transition-transform">
