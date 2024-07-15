@@ -7,10 +7,22 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        primary: '#1B1972',
+        gradientStart: '#151515',
+        gradientMid1: '#151515',
+        gradientMid2: '#151515',
+        gradientEnd: '#151515',
+      },
+      keyframes: {
+        animation: {
+          '0%': { 'background-size': '0%' },
+          '40%': { 'background-size': '100%' },
+          '100%': { 'background-size': '100%' },
+        },
+      },
+      animation: {
+        animation: 'animation 2s linear infinite alternate',
       },
     },
   },
