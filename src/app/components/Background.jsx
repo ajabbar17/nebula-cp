@@ -1,14 +1,12 @@
 "use client"
 import React, { useEffect, useRef } from 'react';
-import { TweenLite, Circ } from 'gsap';
-import { motion, useScroll } from 'framer-motion';
+import { gsap } from 'gsap';
 import Link from 'next/link';
 
 
 const Background = () => {
   const canvasRef = useRef(null);
   const headerRef = useRef(null);
-  const { scrollYProgress } = useScroll();
 
 
   useEffect(() => {
@@ -145,10 +143,11 @@ const Background = () => {
     };
 
     const shiftPoint = (p) => {
-      TweenLite.to(p, 1 + 1 * Math.random(), {
+      gsap.to(p, {
+        duration: 1 + 1 * Math.random(),
         x: p.originX - 50 + Math.random() * 100,
         y: p.originY - 50 + Math.random() * 100,
-        ease: Circ.easeInOut,
+        ease: "circ.inOut",
         onComplete: function () {
           shiftPoint(p);
         }
@@ -199,7 +198,6 @@ const Background = () => {
     <div id="large-header" className="large-header" ref={headerRef}>
      
       <canvas id="demo-canvas" ref={canvasRef}></canvas>
-      <motion.div style={{ scaleX: scrollYProgress }} />  
 
           <h1 className="text-6xl md:text-8xl font-bold mb-6 main-title">
             <span
