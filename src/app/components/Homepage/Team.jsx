@@ -10,13 +10,13 @@ const Team = () => {
         <h1 className='text-3xl md:text-7xl text-white mb-5 font-semibold'>MEET OUR TEAM</h1>
         <div className='w-full flex gap-12 md:gap-4 flex-wrap  justify-center  xl:flex-nowrap'>
 
-        <article className="relative overflow-hidden w-full  lg:w-1/4 rounded-lg shadow cursor-pointer hover:scale-105 hover:shadow-[#3e4467] transition hover:shadow-lg">
+        <article className="relative overflow-hidden w-[80%] md:w-full  lg:w-1/4 rounded-lg shadow cursor-pointer hover:scale-105 hover:shadow-[#3e4467] transition hover:shadow-lg">
   <Image
     alt="Person"
-    src="/temp.avif"
-    height={100}
-    width={100}
-    className="absolute inset-0 h-full w-full object-cover"
+    src="/mayukh.png"
+    height={300}
+    width={300}
+    className="absolute inset-0 h-full w-full object-fill"
     />
 
   <div className="relative bg-gradient-to-t from-gray-900/50 to-gray-900/25 pt-32 sm:pt-48 lg:pt-64">
@@ -26,18 +26,19 @@ const Team = () => {
       </a>
 
       <p className="mt-2 line-clamp-3 font-semibold text-lg text-white/95">
-        Title
+       Founder and CEO
+
       </p>
     </div>
   </div>
 </article>
-<article className="relative overflow-hidden  w-full  lg:w-1/4 rounded-lg shadow cursor-pointer hover:scale-105 hover:shadow-[#3e4467] transition hover:shadow-lg">
+<article className="relative overflow-hidden  w-[80%] md:w-full h-full  lg:w-1/4 rounded-lg shadow cursor-pointer hover:scale-105 hover:shadow-[#3e4467] transition hover:shadow-lg">
 <Image
     alt="Person"
-    src="/temp.avif"
-    height={100}
-    width={100}
-    className="absolute inset-0 h-full w-full object-cover"
+    src="/kimutai.png"
+    height={300}
+    width={300}
+    className="absolute  h-full w-full object-fill "
     />
 
   <div className="relative bg-gradient-to-t from-gray-900/50 to-gray-900/25 pt-32 sm:pt-48 lg:pt-64">
@@ -47,18 +48,18 @@ const Team = () => {
       </a>
 
       <p className="mt-2 line-clamp-3 font-semibold text-lg text-white/95">
-        Title
+   CO-FOUNDER AND CIO
       </p>
     </div>
   </div>
 </article>
-<article className="relative overflow-hidden w-full  lg:w-1/4 rounded-lg shadow cursor-pointer hover:scale-105 hover:shadow-[#3e4467] transition hover:shadow-lg">
+<article className="relative overflow-hidden w-[80%] md:w-full h-full  lg:w-1/4 rounded-lg shadow cursor-pointer hover:scale-105 hover:shadow-[#3e4467] transition hover:shadow-lg">
 <Image
     alt="Person"
-    src="/temp.avif"
-    height={100}
-    width={100}
-    className="absolute inset-0 h-full w-full object-cover"
+    src="/will.png"
+    height={300}
+    width={300}
+    className="absolute  h-full w-full object-fill"
     />
 
   <div className="relative bg-gradient-to-t from-gray-900/50 to-gray-900/25 pt-32 sm:pt-48 lg:pt-64">
@@ -68,19 +69,20 @@ const Team = () => {
       </a>
 
       <p className="mt-2 line-clamp-3 font-semibold text-lg text-white/95">
-        Title
+      WILL CO-FOUNDER AND CMO
+
       </p>
     </div>
   </div>
 </article>
 
-<article className="relative overflow-hidden  w-full  lg:w-1/4 rounded-lg shadow cursor-pointer hover:scale-105 hover:shadow-[#3e4467] transition hover:shadow-lg">
+<article className="relative overflow-hidden w-[80%]  md:w-full  lg:w-1/4 rounded-lg shadow cursor-pointer hover:scale-105 hover:shadow-[#3e4467] transition hover:shadow-lg">
 <Image
     alt="Person"
-    src="/temp.avif"
-    height={100}
-    width={100}
-    className="absolute inset-0 h-full w-full object-cover"
+    src="/talha.png"
+    height={300}
+    width={300}
+    className="absolute  h-full w-full object-fill"
     />
 
   <div className="relative bg-gradient-to-t from-gray-900/50 to-gray-900/25 pt-32 sm:pt-48 lg:pt-64">
@@ -90,7 +92,7 @@ const Team = () => {
       </a>
 
       <p className="mt-2 line-clamp-3 font-semibold text-lg text-white/95">
-        Title
+      CHIEF AI ENGINEER
       </p>
     </div>
   </div>
