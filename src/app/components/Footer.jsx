@@ -36,14 +36,14 @@ const Footer = () => {
               <div>
                   <h2 className="mb-6 text-sm font-semibold  uppercase ">Follow us</h2>
                   <ul className=" font-medium">
-                      <li className="mb-4 hover:scale-110 transition-all">
-                          <Link href="/">Twitter</Link>
+                      <li  className="mb-4 hover:scale-110 transition-all">
+                          <a target='_blank' href="https://x.com/Nebula_Cap?t=B5j-PUyhVeKjUMX7PjnW-g&s=08">Twitter</a>
                       </li>
                       <li className="mb-4 hover:scale-110 transition-all">
-                          <Link href="/" >Telegram</Link>
+                          <a target='_blank' href="https://t.me/+K2gODipwtbo3MDVh" >Telegram</a>
                       </li >
                       <li className='hover:scale-110 transition-all'>
-                          <Link href="/" >LinkedIn</Link>
+                          <a target='_blank' href="https://www.linkedin.com/company/nebulacapital/about/?viewAsMember=true" >LinkedIn</a>
                       </li>
                   </ul>
               </div>

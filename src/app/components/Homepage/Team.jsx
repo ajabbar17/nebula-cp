@@ -25,7 +25,7 @@ const Team = () => {
         <h3 className="mt-0.5 text-2xl font-bold text-white">Mayukh Gon</h3>
       </a>
 
-      <p className="mt-2 line-clamp-3 font-semibold text-lg text-white/95">
+      <p className="mt-2 line-clamp-3 font-semibold uppercase text-lg text-white/95">
        Founder and CEO
 
       </p>

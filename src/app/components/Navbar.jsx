@@ -34,12 +34,12 @@ const Navbar = () => {
         </button>
         <div className={`absolute md:relative w-full md:w-auto mt-12 md:mt-0 md:block ${isNavbarOpen ? '' : 'hidden'}`} id="navbar-default" style={{ top: '50%', left: '0' }}> {/* Absolute positioning */}
           <ul className="font-medium flex flex-col left-0 p-4 md:p-0 bg-[#0b1126] rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse">
-            <li>
+            <li onClick={toggleNavbar}>
               <Link href="/">
                 <span className="block font-bold text-white rounded  md:hover:bg-transparent md:dark:hover:bg-transparent nav-link" >HOME</span>
               </Link>
             </li>
-            <li>
+            <li onClick={toggleNavbar}>
               <Link href="/contactUs">
                 <span className="block font-bold text-white rounded md:hover:bg-transparent md:dark:hover:bg-transparent nav-link" >CONTACT US</span>
               </Link>

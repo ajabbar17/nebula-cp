@@ -1,6 +1,5 @@
 import About from "./components/Homepage/About";
 
-import AI from "./components/Homepage/AI";
 import Background from "./components/Background";
 import Startups from "./components/Homepage/Startups";
 import Retail from "./components/Homepage/Retail";
