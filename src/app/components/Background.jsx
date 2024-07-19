@@ -224,7 +224,7 @@ const Background = () => {
           >
             Web2,WEB3, & beyond
           </h1>
-          <p className="text-base md:text-2xl main-title mt-36 md:mt-64">A new way to democratize access to early projects</p>
+          <p className="text-sm md:text-2xl main-title mt-40 md:mt-64">A new way to democratize access to early projects</p>
           <button className='bg-white font-bold text-xl text-black p-4 mt-72 md:mt-96 px-6 md:px-12 text-center main-title rounded-full' onClick={()=>router.push("/contactUs")}>Get Started</button>
 
     </div>
