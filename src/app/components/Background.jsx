@@ -219,7 +219,7 @@ const Background = () => {
           <h1 className="text-2xl  md:text-6xl font-bold mt-20 md:mt-36 uppercase main-title"
             style={{ color: '#D64D72' }}
           >
-            Web2,WEB3 & beyond
+            Web2,WEB3, & beyond
           </h1>
           <p className="text-base md:text-2xl main-title mt-36 md:mt-64">A new way to democratize access to early projects</p>
           <button className='bg-white font-bold text-xl text-black p-4 mt-72 md:mt-96 px-6 md:px-12 text-center main-title rounded-full'>Get Started</button>

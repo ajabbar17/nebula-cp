@@ -69,7 +69,7 @@ const Team = () => {
       </a>
 
       <p className="mt-2 line-clamp-3 font-semibold text-lg text-white/95">
-      WILL CO-FOUNDER AND CMO
+     CO-FOUNDER AND CMO
 
       </p>
     </div>
