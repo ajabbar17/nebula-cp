@@ -42,7 +42,7 @@ const Background = () => {
 
   return (
     <div id="large-header" className="large-header" ref={headerRef}>
-      <canvas id="demo-canvas" ref={canvasRef}></canvas>
+      <canvas id="demo-canvas" className='w-screen' ref={canvasRef}></canvas>
       <h1 className="text-4xl md:text-8xl font-bold mb-6 main-title" style={{minHeight: '1em'}}>
         <span
           className="inline-block animate-animation"
@@ -61,8 +61,9 @@ const Background = () => {
       <h1 className="text-2xl md:text-6xl font-bold mt-20 md:mt-36 uppercase main-title" style={{ color: '#D64D72', minHeight: '1em' }}>
         Web2, WEB3, & beyond
       </h1>
+      <p className="text-sm md:text-2xl main-title mt-40 md:mt-64" style={{minHeight: '1em'}}>A new way to democratize access to early projects</p>
       <button
-        className="bg-white font-bold text-xl text-black p-4 mt-72 md:mt-96 px-6  text-center main-title rounded-full"
+        className="bg-white font-bold text-xl text-black p-4 mt-72 md:mt-96 px-6 md:px-12 text-center main-title rounded-full"
         onClick={() => window.open("https://t.me/+K2gODipwtbo3MDVh", "_blank")}
       >
         Get Early Access to Nebula

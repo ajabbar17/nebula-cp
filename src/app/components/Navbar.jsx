@@ -53,7 +53,7 @@ const Navbar = () => {
           </svg>
         </button>
         <div
-          className={`absolute md:relative w-full md:w-1/4  mt-7 md:mt-0 md:block ${
+          className={`absolute md:relative w-full md:w-1/4   mt-7 md:mt-0 md:block ${
             isNavbarOpen ? "" : "hidden"
           }`}
           id="navbar-default"
@@ -61,7 +61,7 @@ const Navbar = () => {
         >
           {" "}
           {/* Absolute positioning */}
-          <ul className="font-medium  flex flex-col left-0 p-4 md:p-0 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse">
+          <ul className="font-medium  flex flex-col left-0 bg-[#090f21] md:bg-transparent p-4 md:p-0 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse">
             <li onClick={toggleNavbar}>
               <Link href="/">
                 <span className="block font-bold text-white rounded  md:hover:bg-transparent md:dark:hover:bg-transparent nav-link">
