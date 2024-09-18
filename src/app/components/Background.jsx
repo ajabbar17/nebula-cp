@@ -61,12 +61,11 @@ const Background = () => {
       <h1 className="text-2xl md:text-6xl font-bold mt-20 md:mt-36 uppercase main-title" style={{ color: '#D64D72', minHeight: '1em' }}>
         Web2, WEB3, & beyond
       </h1>
-      <p className="text-sm md:text-2xl main-title mt-40 md:mt-64" style={{minHeight: '1em'}}>Get Early Access to Nebula</p>
       <button
-        className="bg-white font-bold text-xl text-black p-4 mt-72 md:mt-96 px-6 md:px-12 text-center main-title rounded-full"
+        className="bg-white font-bold text-xl text-black p-4 mt-72 md:mt-96 px-6  text-center main-title rounded-full"
         onClick={() => window.open("https://t.me/+K2gODipwtbo3MDVh", "_blank")}
       >
-        Get Started
+        Get Early Access to Nebula
       </button>
     </div>
   );

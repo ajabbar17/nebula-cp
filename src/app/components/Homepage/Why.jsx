@@ -64,8 +64,7 @@ const Why = () => {
         </div>
         
       ))}
-      <h1 className='text-4xl md:text-5xl text-center text-white mt-14 font-semibold'>
-      Explore Nebula - Where Futures Are Built</h1>
+      
     </div>
   );
 };
