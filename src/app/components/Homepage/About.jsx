@@ -13,7 +13,7 @@ const About = () => {
 
         </h1>
         <p className='text-white mt-4 md:mt-10 text-base md:text-lg font-bold'>
-          “Leave Your Investing Research To Us”</p>
+          “Access a comprehensive strategy encompassing education, yields, and exclusive early-stage Web3 investments.”</p>
         <div className='flex gap-4 items-center mt-6'>
           <div>
             <Image src="/mayukh.png" width={100} height={100} className='rounded-full w-20' alt="invest" />

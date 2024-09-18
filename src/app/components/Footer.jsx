@@ -16,7 +16,7 @@ const Footer = () => {
             
           <div className="mb-6 md:mb-0">
               <Link href="/" className="flex items-center">
-                  <Image src="/Icon White.png" className="h-20 me-3 bg-blend-multiply w-auto" alt=" Logo" width={100} height={100} />
+                  <Image src="/Icon White.png" className="h-14 md:h-20 me-3 bg-blend-multiply w-auto" alt=" Logo" width={100} height={100} />
                   <span className="self-center text-4xl font-bold whitespace-nowrap ">Nebula Capital</span>
               </Link>
           </div>
@@ -29,7 +29,7 @@ const Footer = () => {
                           <Link href="/" >Home</Link>
                       </li>
                       <li className=' hover:scale-110 transition-all'>
-                          <Link href="/" >Contact Us</Link>
+                      <a target='_blank' href="https://t.me/+K2gODipwtbo3MDVh" >Contact Us</a>
                       </li>
                   </ul>
               </div>
