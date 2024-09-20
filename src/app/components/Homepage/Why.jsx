@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import React from "react";
 
@@ -35,6 +36,7 @@ const Why = () => {
       <h1 className="text-4xl md:text-7xl text-white mb-3 font-semibold">
         Why Nebula?
       </h1>
+      
 
       {features.map((feature) => (
         <div
@@ -63,8 +65,16 @@ const Why = () => {
           </div>
         </div>
         
+        
       ))}
       
+      <button
+        className="bg-white hover:scale-105 transition-all  font-bold text-xl text-black p-4 mt-8  px-10  text-center rounded-full"
+        onClick={() => window.open("https://t.me/+K2gODipwtbo3MDVh", "_blank")}
+      >
+        Explore Nebula
+
+      </button>
     </div>
   );
 };
