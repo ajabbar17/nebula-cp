@@ -5,17 +5,13 @@ import React from 'react';
 const About = () => {
   return (
     <section className="w-full gap-16 items-center  flex md:flex-row flex-col md:px-28 md:py-16 py-6 px-6 ">
-      <div className='w-auto flex items-center md:items-start flex-col' >
+      <div className='w-[60%] flex  items-center md:items-start flex-col' >
        
 
-        <h1 className='text-3xl md:text-7xl text-white font-bold'>
-        Nebula Capital
-
-        </h1>
+        
+         
         <p className='text-white mt-4 md:mt-10 text-base md:text-lg font-bold'>
           “Access a comprehensive strategy encompassing education, yields, and exclusive early-stage Web3 investments.”</p>
-          <h1 className='text-4xl  text-left text-white mt-14 font-semibold'>
-      Explore Nebula - Where Futures Are Built</h1>
         <div className='flex gap-4 items-center mt-6'>
           
           <div>
@@ -33,6 +29,12 @@ const About = () => {
               
             </div>
         </div>
+        <button
+        className="bg-white font-bold text-xl text-black p-4 mt-8  px-6  text-center rounded-full"
+        onClick={() => window.open("https://t.me/+K2gODipwtbo3MDVh", "_blank")}
+      >
+        Explore Nebula
+      </button>
       </div>
       
       
